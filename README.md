@@ -1,9 +1,10 @@
 # Calorie Counter
 
 Aplicación para llevar el registro de calorías diarias, desarrollada con **React**, **TypeScript**, **Context API**, **useReducer** y **TailwindCSS**.
+![screenshot](https://github.com/user-attachments/assets/7ec97109-ebe6-4dfc-91fb-51e90e288b42)
 
-![Demo](./screenshot.png) 
-![Demo](./screenshot2.png) 
+![screenshot2](https://github.com/user-attachments/assets/26deafc6-662c-4669-b717-7afbfbe648a1)
+
 
 ## 🚀 Características
 
@@ -28,6 +29,8 @@ Aplicación para llevar el registro de calorías diarias, desarrollada con **Rea
    git clone https://github.com/tuusuario/calorie-counter.git
 
 2. Instala dependencias:
+    ```bash
    npm install
-3. Inicia la aplicación:
+4. Inicia la aplicación:
+   ```bash
     npm run dev
