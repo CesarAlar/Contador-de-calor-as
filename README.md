@@ -1,27 +1,33 @@
-# React + TypeScript + Vite
+# Calorie Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación para llevar el registro de calorías diarias, desarrollada con **React**, **TypeScript**, **Context API**, **useReducer** y **TailwindCSS**.
 
-Currently, two official plugins are available:
+![Demo](./screenshot.png) 
+![Demo](./screenshot2.png) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Características
 
-## Expanding the ESLint configuration
+- Añade alimentos y registra su aporte calórico
+- Visualiza el consumo total diario
+- Edita y elimina registros fácilmente
+- Diseño moderno, responsivo y claro
+- Gestión de estado global con Context y useReducer
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Tecnologías usadas
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- TypeScript
+- Context API
+- useReducer
+- TailwindCSS
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## 📦 Instalación
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/calorie-counter.git
+
+2. Instala dependencias:
+   npm install
+3. Inicia la aplicación:
+    npm run dev
